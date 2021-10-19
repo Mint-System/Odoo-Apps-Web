@@ -5,8 +5,22 @@
 
 @font-face {
     font-family: 'OpenSans';
-    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
     src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: bolder;
     src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Bold.ttf) format('truetype');
 }
 
