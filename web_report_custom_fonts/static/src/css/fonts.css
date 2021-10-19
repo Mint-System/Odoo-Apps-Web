@@ -1,26 +1,27 @@
 @font-face {
     font-family: 'Moonrising';
+    font-weight: 400;
     src: url(/web_report_custom_fonts/static/src/fonts/Moonrising.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Regular';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Light';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 300;
     src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Light.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Bold';
     font-style: normal;
-    font-weight: bolder;
+    font-weight: 700;
     src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Bold.ttf) format('truetype');
 }
 
@@ -28,6 +29,14 @@
     font-family: 'Moonrising';
 }
 
-.use-font-opensans {
-    font-family: 'OpenSans';
+.use-font-opensans-regular {
+    font-family: 'OpenSans-Regular';
+}
+
+.use-font-opensans-bold {
+    font-family: 'OpenSans-Bold';
+}
+
+.use-font-opensans-light {
+    font-family: 'OpenSans-Light';
 }

@@ -21,7 +21,7 @@ In your report set css class to apply custom font.
 .. code-block:: xml
 
     <xpath expr="/t[1]/t[1]/div[1]/h2[1]" position="attributes">
-      <attribute name="class">mt16 use-font-opensans</attribute>
+      <attribute name="class">mt16 use-font-opensans-regular</attribute>
     </xpath>
 
 Maintainer
