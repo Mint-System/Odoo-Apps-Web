@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Moonrising';
+    src: url(/web_report_custom_fonts/static/src/fonts/Moonrising.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Light.ttf) format('truetype');
+    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Regular.ttf) format('truetype');
+    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+.use-font-moonrising {
+    font-family: 'Moonrising';
+}
+
+.use-font-opensans {
+    font-family: 'OpenSans';
+}

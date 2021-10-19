@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+  <template id="report_assets_common_custom_fonts" name="Custom QWeb fonts" inherit_id="web.report_assets_common">  
+    <xpath expr="." position="inside">
+      <link rel="stylesheet" href="/web_report_custom_fonts/static/src/css/fonts.css"/>
+    </xpath>
+  </template>
+
+</odoo>
