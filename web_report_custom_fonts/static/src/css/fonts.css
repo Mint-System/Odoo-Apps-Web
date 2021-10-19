@@ -31,12 +31,15 @@
 
 .use-font-opensans-regular {
     font-family: 'OpenSans-Regular';
+    font-weight: 400;
 }
 
 .use-font-opensans-bold {
     font-family: 'OpenSans-Bold';
+    font-weight: 700;
 }
 
 .use-font-opensans-light {
     font-family: 'OpenSans-Light';
+    font-weight: 300;
 }
