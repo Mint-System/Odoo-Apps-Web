@@ -19,6 +19,13 @@
 }
 
 @font-face {
+    font-family: 'OpenSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url(/web_report_custom_fonts/static/src/fonts/OpenSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
     font-family: 'OpenSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -42,4 +49,9 @@
 .use-font-opensans-light {
     font-family: 'OpenSans-Light';
     font-weight: 300;
+}
+
+.use-font-opensans-medium {
+    font-family: 'OpenSans-Medium';
+    font-weight: 500;
 }
