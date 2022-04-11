@@ -1,46 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Report Custom Fonts</title>
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <style>
-        .use-font-opensans-regular {
-            font-family: 'Open Sans';
-            font-weight: 400;
-        }
-
-        .use-font-opensans-bold {
-            font-family: 'Open Sans';
-            font-weight: 700;
-        }
-
-        .use-font-opensans-medium {
-            font-family: 'Open Sans';
-            font-weight: 500;
-        }
-
-
-        .use-font-opensans-light {
-            font-family: 'Open Sans';
-            font-weight: 300;
-        }
-    </style>
+    <meta charset="utf-8" />
 </head>
-<body>
-    <header>
+<body><a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">
+        <img alt="License: GPL-3" src="https://img.shields.io/badge/licence-GPL--3-blue.svg" />
+    </a>
+    <section id="web-report-custom-fonts">
         <h1>Web Report Custom Fonts</h1>
-    </header>
-
-    <h2>Open Sans</h2>
-    
-    <p class="use-font-opensans-light">Almost before we knew it, we had left the ground.</p>
-    <p class="use-font-opensans-regular">Almost before we knew it, we had left the ground.</p>
-    <p class="use-font-opensans-medium">Almost before we knew it, we had left the ground.</p>
-    <p class="use-font-opensans-bold">Almost before we knew it, we had left the ground.</p>
-
+        <p>Enables various custom fonts.</p>
+        <p>For a detailed documentation have a look at <a href="https://www.odoo-wiki.org/">https://www.odoo-wiki.org/</a>.</p>
+        <img height="100" width="100" alt="Icon" src="https://raw.githubusercontent.com/Mint-System/Wiki/master/assets/icon-box.png" />
+        <section id="configuration">
+            <h2>Configuration</h2>
+            <p>In your report set css class to apply custom font.</p>
+            <pre data-language="xml"><span class="nt">&lt;xpath</span> <span class="na">expr=</span><span class="s">&quot;/t[1]/t[1]/div[1]/h2[1]&quot;</span> <span class="na">position=</span><span class="s">&quot;attributes&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;attribute</span> <span class="na">name=</span><span class="s">&quot;class&quot;</span><span class="nt">&gt;</span>mt16 use-font-opensans-regular<span class="nt">&lt;/attribute&gt;</span>
+<span class="nt">&lt;/xpath&gt;</span></pre>
+            <section id="maintainer">
+                <h3>Maintainer</h3>
+            <a href="https://www.mint-system.ch">
+                    <img src="https://raw.githubusercontent.com/Mint-System/Wiki/master/assets/mint-system-logo.png" alt="" />
+                </a>
+                <p>This module is maintained by Mint System GmbH.</p>
+                <p>For support and more information, please visit <a href="https://www.mint-system.ch">our Website</a>.</p>
+            </section>
+        </section>
+    </section>
 </body>
 </html>
