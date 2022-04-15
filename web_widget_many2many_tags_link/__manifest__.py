@@ -15,4 +15,5 @@
     "qweb": ["static/src/xml/fields_templates.xml",],
     "installable": True,
     "application": False,
+    "images": ["images/screen.png"],
 }
