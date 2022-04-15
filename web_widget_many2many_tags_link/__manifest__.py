@@ -12,7 +12,7 @@
     "version": "13.0.1.0.1",
     "depends": ["web"],
     "data": ["views/assets.xml"],
-    "qweb": ["static/src/xml/fields_templates.xml",],
+    "qweb": ["static/src/xml/fields_templates.xml"],
     "installable": True,
     "application": False,
     "images": ["images/screen.png"],
