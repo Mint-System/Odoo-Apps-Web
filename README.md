@@ -12,6 +12,6 @@ git clone git@github.com:mint-system/odoo-apps-web.git ./addons/web
 
 ## Available modules
 
-| Module                                            | Summary                       |
-| ------------------------------------------------- | ----------------------------- |
-| [web_report_custom_fonts](web_report_custom_fonts/) | Enables various custom fonts. |
+| Module                                                            | Summary                                    |
+| ----------------------------------------------------------------- | ------------------------------------------ |
+| [web_widget_many2many_tags_link](web_widget_many2many_tags_link/) | Makes the many2many_tags widget clickable. |

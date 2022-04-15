@@ -1,0 +1,4 @@
+[submodule "oca/server-env"]
+	path = oca/server-env
+	url = git@github.com:OCA/server-env.git
+	branch = 13.0
