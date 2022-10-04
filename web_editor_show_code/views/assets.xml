@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+  <template id="widget" inherit_id="web.assets_backend">
+    <xpath expr="//script[last()]" position="after">
+      <script type="text/javascript" src="/web_editor_show_code/static/src/js/editor.js" />
+    </xpath>
+  </template>
+
+</odoo>

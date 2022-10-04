@@ -12,6 +12,7 @@ git clone git@github.com:mint-system/odoo-apps-web.git ./addons/web
 
 ## Available modules
 
-| Module                                            | Summary                       |
-| ------------------------------------------------- | ----------------------------- |
-| [web_report_custom_fonts](web_report_custom_fonts/) | Enables various custom fonts. |
+| Module | Summary |
+| --- | --- |
+| [web_editor_show_code](web_editor_show_code) |         Show code view button without debug mode. |
+| [web_report_custom_fonts](web_report_custom_fonts) |         Enables various custom fonts. |
